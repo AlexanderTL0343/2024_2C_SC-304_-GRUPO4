@@ -40,12 +40,12 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
         - tipoUsuario: String (puede ser "administrador" o "espectador")
   - Métodos:
   	- Públicos:
-           - getNombre(): String
-           - getEmail(): String
-           - getTipoUsuario(): String
-           - setNombre(nombre: String): void
-           - setEmail(email: String): void
-           - setTipoUsuario(tipoUsuario: String): void
+     - getNombre(): String
+       - getEmail(): String
+         - getTipoUsuario(): String
+         - setNombre(nombre: String): void
+         - setEmail(email: String): void
+         - setTipoUsuario(tipoUsuario: String): void
 2.	Evento
    - Estática: No
    - Atributos:
