@@ -35,85 +35,85 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
   - Estática: No
   - Atributos:
     - Privados:
-        -- nombre: String
-        -- email: String
-        -- tipoUsuario: String (puede ser "administrador" o "espectador")
+        - nombre: String
+        - email: String
+        - tipoUsuario: String (puede ser "administrador" o "espectador")
   - Métodos:
   	- Públicos:
-          -- getNombre(): String
-          -- getEmail(): String
-          -- getTipoUsuario(): String
-          -- setNombre(nombre: String): void
-          -- setEmail(email: String): void
-          -- setTipoUsuario(tipoUsuario: String): void
+          - getNombre(): String
+          - getEmail(): String
+          - getTipoUsuario(): String
+          - setNombre(nombre: String): void
+          - setEmail(email: String): void
+          - setTipoUsuario(tipoUsuario: String): void
 2.	Evento
    - Estática: No
    - Atributos:
        - Privados:
-          -- nombre: String
-          -- fecha: Date
-          -- ubicacion: String
-          -- participantes: DoubleLinkedList<Participante>
-          -- partidos: Queue<Partido>
+          - nombre: String
+          - fecha: Date
+          - ubicacion: String
+          - participantes: DoubleLinkedList<Participante>
+          - partidos: Queue<Partido>
    - Métodos:
     - Públicos:
-          -- getNombre(): String
-          --	getFecha(): Date
-          --	getUbicacion(): String
-          --	getParticipantes(): DoubleLinkedList<Participante>
-          --	getPartidos(): Queue<Partido>
-          --	setNombre(nombre: String): void
-          --	setFecha(fecha: Date): void
-          --	setUbicacion(ubicacion: String): void
-          --	addParticipante(participante: Participante): void
-          --	removeParticipante(participante: Participante): void
-          --	addPartido(partido: Partido): void
-          --	removePartido(partido: Partido): void
+          - getNombre(): String
+          -	getFecha(): Date
+          -	getUbicacion(): String
+          -	getParticipantes(): DoubleLinkedList<Participante>
+          -	getPartidos(): Queue<Partido>
+          -	setNombre(nombre: String): void
+          -	setFecha(fecha: Date): void
+          -	setUbicacion(ubicacion: String): void
+          -	addParticipante(participante: Participante): void
+          -	removeParticipante(participante: Participante): void
+          -	addPartido(partido: Partido): void
+          -	removePartido(partido: Partido): void
 3.	Participante
   -	Estática: No
   -	Atributos:
     - Privados:
-        --	nombre: String
-        --	edad: int
-        --	equipo: String
+        -	nombre: String
+        -	edad: int
+        -	equipo: String
   -	Métodos:
     -	Públicos:
-          --	getNombre(): String
-          --	getEdad(): int
-          --	getEquipo(): String
-          --	setNombre(nombre: String): void
-          --	setEdad(edad: int): void
-          --	setEquipo(equipo: String): void
+          -	getNombre(): String
+          -	getEdad(): int
+          -	getEquipo(): String
+          -	setNombre(nombre: String): void
+          -	setEdad(edad: int): void
+          -	setEquipo(equipo: String): void
 4.	Partido
   -	Estática: No
   - Atributos:
     -	Privados:
-        --	evento: Evento
-        --	participantes: List<Participante>
-        --	fecha: Date
+        -	evento: Evento
+        -	participantes: List<Participante>
+        -	fecha: Date
   -	Métodos:
      -Públicos:
-          --	getEvento(): Evento
-          --	getParticipantes(): List<Participante>
-          --	getFecha(): Date
-          --	setEvento(evento: Evento): void
-          --	setParticipantes(participantes: List<Participante>): void
-          --	setFecha(fecha: Date): void
+          -	getEvento(): Evento
+          -	getParticipantes(): List<Participante>
+          -	getFecha(): Date
+          -	setEvento(evento: Evento): void
+          -	setParticipantes(participantes: List<Participante>): void
+          -	setFecha(fecha: Date): void
 5.	Resultado
   -	Estática: No
   -	Atributos:
     -	Privados:
-          --	partido: Partido
-          --	participante: Participante
-          --	puntuacion: int
+          -	partido: Partido
+          -	participante: Participante
+          -	puntuacion: int
   -	Métodos:
   -	Públicos:
-        --	getPartido(): Partido
-        --	getParticipante(): Participante
-        --	getPuntuacion(): int
-        --	setPartido(partido: Partido): void
-        --	setParticipante(participante: Participante): void
-        --	setPuntuacion(puntuacion: int): void
+        -	getPartido(): Partido
+        -	getParticipante(): Participante
+        -	getPuntuacion(): int
+        -	setPartido(partido: Partido): void
+        -	setParticipante(participante: Participante): void
+        -	setPuntuacion(puntuacion: int): void
 
 # Diseño de interfaces
 
