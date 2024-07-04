@@ -179,4 +179,4 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
   - Persistencia de Datos:
   - Utilización de archivos para almacenar datos.
 - Desempeño:
--   Optimización de las operaciones para manejar grandes cantidades de datos eficientemente
+  -   Optimización de las operaciones para manejar grandes cantidades de datos eficientemente
