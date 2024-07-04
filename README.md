@@ -40,12 +40,12 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
         - tipoUsuario: String (puede ser "administrador" o "espectador")
   - Métodos:
   	- Públicos:
-          - getNombre(): String
-          - getEmail(): String
-          - getTipoUsuario(): String
-          - setNombre(nombre: String): void
-          - setEmail(email: String): void
-          - setTipoUsuario(tipoUsuario: String): void
+            - getNombre(): String
+            - getEmail(): String
+            - getTipoUsuario(): String
+            - setNombre(nombre: String): void
+            - setEmail(email: String): void
+            - setTipoUsuario(tipoUsuario: String): void
 2.	Evento
    - Estática: No
    - Atributos:
@@ -57,18 +57,18 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
           - partidos: Queue<Partido>
    - Métodos:
     - Públicos:
-          - getNombre(): String
-          -	getFecha(): Date
-          -	getUbicacion(): String
-          -	getParticipantes(): DoubleLinkedList<Participante>
-          -	getPartidos(): Queue<Partido>
-          -	setNombre(nombre: String): void
-          -	setFecha(fecha: Date): void
-          -	setUbicacion(ubicacion: String): void
-          -	addParticipante(participante: Participante): void
-          -	removeParticipante(participante: Participante): void
-          -	addPartido(partido: Partido): void
-          -	removePartido(partido: Partido): void
+            - getNombre(): String
+            -	getFecha(): Date
+            -	getUbicacion(): String
+            -	getParticipantes(): DoubleLinkedList<Participante>
+            -	getPartidos(): Queue<Partido>
+            -	setNombre(nombre: String): void
+            -	setFecha(fecha: Date): void
+            -	setUbicacion(ubicacion: String): void
+            -	addParticipante(participante: Participante): void
+            -	removeParticipante(participante: Participante): void
+            -	addPartido(partido: Partido): void
+            -	removePartido(partido: Partido): void
 3.	Participante
   -	Estática: No
   -	Atributos:
