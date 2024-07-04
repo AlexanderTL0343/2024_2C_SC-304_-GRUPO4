@@ -25,10 +25,10 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
 # Plan de proyecto con responsables por tarea (en Git)
 | nombre del estudiente | tarea|
 |-----------------------|------|
-|Marvin Gago Reyes|Lista de Participantes,Listado de Eventos
+|Marvin Gago Reyes|Lista de Participantes,Listado de Eventos,Registro de Resultados,Consulta de Participantes,Consulta de Resultados
 |Alexander Torres Lopez| Registro de Eventos,Actualización y Eliminación de Eventos,Registro de Participantes,Actualización y Eliminación de Participantes
-|Andrey Ureña Chaves|
-|Todos|
+|Andrey Ureña Chaves|Programación de Partidos,Calendario de Partidos,Historial de Resultados,Consulta de Eventos
+|Todos|Grafo de Equipos, Árbol de Clasificación 
 
 # Diseño de interfaces
 - Inicio
