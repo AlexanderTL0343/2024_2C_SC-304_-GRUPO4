@@ -58,17 +58,17 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
    - Métodos:
      - Públicos:
        - getNombre(): String
-         - getFecha(): Date
-           - getUbicacion(): String
-           - getParticipantes(): DoubleLinkedList<Participante>
-           - getPartidos(): Queue<Partido>
-           - setNombre(nombre: String): void
-             - setFecha(fecha: Date): void
-           - setUbicacion(ubicacion: String): void
-           - addParticipante(participante: Participante): void
-           - removeParticipante(participante: Participante): void
-           - addPartido(partido: Partido): void
-           - removePartido(partido: Partido): void
+       - getFecha(): Date
+       - getUbicacion(): String
+       - getParticipantes(): DoubleLinkedList<Participante>
+       - getPartidos(): Queue<Partido>
+       - setNombre(nombre: String): void
+       - setFecha(fecha: Date): void
+       - setUbicacion(ubicacion: String): void
+       - addParticipante(participante: Participante): void
+       - removeParticipante(participante: Participante): void
+       - addPartido(partido: Partido): void
+        - removePartido(partido: Partido): void
 3.	Participante
   -	Estática: No
   -	Atributos:
