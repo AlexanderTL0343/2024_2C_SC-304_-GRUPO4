@@ -116,4 +116,67 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
         -	setPuntuacion(puntuacion: int): void
 
 # Diseño de interfaces
-
+1. Gestión de Eventos
+- Registro de Eventos:
+- Campos: Nombre, Fecha, Ubicación, Lista de Participantes (selector múltiple)
+- Botones: Guardar, Cancelar
+- Listado de Eventos:
+- Tabla con columnas: Nombre, Fecha, Ubicación, Participantes, Acciones (Editar, Eliminar)
+- Actualización de Eventos:
+- Similar al formulario de registro con datos precargados.
+- Eliminación de Eventos:
+- Confirmación antes de eliminar.
+2. Gestión de Participantes
+- Registro de Participantes:
+  - Campos: Nombre, Edad, Equipo
+  - Botones: Guardar, Cancelar
+- Listado de Participantes:
+  - Tabla con columnas: Nombre, Edad, Equipo, Acciones (Editar, Eliminar)
+- Actualización de Participantes:
+    - Similar al formulario de registro con datos precargados.
+- Eliminación de Participantes:
+    - Confirmación antes de eliminar.
+3. Programación de Eventos
+- Programación de Partidos:
+  - Campos: Evento (selector), Equipos (selector múltiple), Fecha, Hora
+  - Botones: Guardar, Cancelar
+- Calendario de Partidos:
+  - Vista de calendario con partidos programados (eventos por día)
+4. Resultados de Partidos
+Registro de Resultados:
+Campos: Evento (selector), Partido (selector), Resultado
+Botones: Guardar, Cancelar
+Historial de Resultados:
+Lista de resultados en orden inverso (último partido jugado primero)
+5. Consulta de Participantes
+Búsqueda de Participantes:
+Campo de búsqueda
+Botón: Buscar
+Lista de Participantes:
+Tabla con columnas: Nombre, Edad, Equipo
+6. Consulta de Eventos
+- Lista de Eventos:
+  - Tabla con columnas: Nombre, Fecha, Ubicación
+  - Botón: Ver Detalles
+- Detalles del Evento:
+  - Información del evento
+  - Lista de Participantes
+  - Calendario de Partidos
+7. Consulta de Resultados
+- Lista de Resultados:
+  - Selección de evento
+  - Lista de resultados por evento
+8. Grafo de Equipos
+- Visualización del Grafo:
+  - Gráfico interactivo mostrando nodos (equipos) y aristas (partidos jugados)
+9. Árbol de Clasificación
+- Visualización del Árbol Binario:
+  - Gráfico interactivo mostrando la clasificación de equipos por victorias
+- Consideraciones Técnicas
+- Interfaz Amigable:
+  - Uso de colores y tipografías claras.
+  - Diseño responsivo.
+  - Persistencia de Datos:
+  - Utilización de archivos para almacenar datos.
+- Desempeño:
+-   Optimización de las operaciones para manejar grandes cantidades de datos eficientemente
