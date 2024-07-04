@@ -118,14 +118,14 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
 # Diseño de interfaces
 1. Gestión de Eventos
 - Registro de Eventos:
-- Campos: Nombre, Fecha, Ubicación, Lista de Participantes (selector múltiple)
-- Botones: Guardar, Cancelar
+  - Campos: Nombre, Fecha, Ubicación, Lista de Participantes (selector múltiple)
+  - Botones: Guardar, Cancelar
 - Listado de Eventos:
-- Tabla con columnas: Nombre, Fecha, Ubicación, Participantes, Acciones (Editar, Eliminar)
+  - Tabla con columnas: Nombre, Fecha, Ubicación, Participantes, Acciones (Editar, Eliminar)
 - Actualización de Eventos:
-- Similar al formulario de registro con datos precargados.
+  - Similar al formulario de registro con datos precargados.
 - Eliminación de Eventos:
-- Confirmación antes de eliminar.
+  - Confirmación antes de eliminar.
 2. Gestión de Participantes
 - Registro de Participantes:
   - Campos: Nombre, Edad, Equipo
@@ -143,17 +143,17 @@ La clase Random se utiliza para generar números aleatorios en Java. Proporciona
 - Calendario de Partidos:
   - Vista de calendario con partidos programados (eventos por día)
 4. Resultados de Partidos
-Registro de Resultados:
-Campos: Evento (selector), Partido (selector), Resultado
-Botones: Guardar, Cancelar
-Historial de Resultados:
-Lista de resultados en orden inverso (último partido jugado primero)
+- Registro de Resultados:
+  - Campos: Evento (selector), Partido (selector), Resultado
+  - Botones: Guardar, Cancelar
+- Historial de Resultados:
+  - Lista de resultados en orden inverso (último partido jugado primero)
 5. Consulta de Participantes
-Búsqueda de Participantes:
-Campo de búsqueda
-Botón: Buscar
-Lista de Participantes:
-Tabla con columnas: Nombre, Edad, Equipo
+- Búsqueda de Participantes:
+  - Campo de búsqueda
+  - Botón: Buscar
+- Lista de Participantes:
+  - Tabla con columnas: Nombre, Edad, Equipo
 6. Consulta de Eventos
 - Lista de Eventos:
   - Tabla con columnas: Nombre, Fecha, Ubicación
