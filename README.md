@@ -1,5 +1,9 @@
 # 2024_2C_SC-304_-GRUPO4
 # Componentes visuales y librerías a utilizar en nuestro proyecto 
+## Integrantes
+- Alexander Torres Lopez
+- Marvin Gago Reyes
+- Andrey Ureña Chaves
 ## Como método de interfaz vamos a utilizar JFrame: 
 JFrame es una clase utilizada en Swing para generar ventanas sobre las cuales añadir distintos objetos con los que podrá interactuar o no el usuario. JFrame posee algunas nociones típicas de una ventana como minimizar, cerrar, maximizar y poder moverla.
 # Librerías a utilizar: 
