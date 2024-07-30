@@ -27,7 +27,7 @@ HashMap es una implementación de la interfaz Map que almacena pares clave-valor
 La clase Random se utiliza para generar números aleatorios en Java. Proporciona métodos para generar valores aleatorios de diferentes tipos, como enteros, números en coma flotante y valores booleanos. Es útil en aplicaciones que requieren generar datos aleatorios, como juegos, simulaciones y pruebas.
 
 # Plan de proyecto con responsables por tarea (en Git)
-| nombre del estudiente | tarea|
+| nombre del estudiante | tarea|
 |-----------------------|------|
 |Marvin Gago Reyes|Lista de Participantes,Listado de Eventos,Registro de Resultados,Consulta de Participantes,Consulta de Resultados
 |Alexander Torres Lopez| Registro de Eventos,Actualización y Eliminación de Eventos,Registro de Participantes,Actualización y Eliminación de Participantes
