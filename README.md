@@ -8,6 +8,12 @@
 JFrame es una clase utilizada en Swing para generar ventanas sobre las cuales añadir distintos objetos con los que podrá interactuar o no el usuario. JFrame posee algunas nociones típicas de una ventana como minimizar, cerrar, maximizar y poder moverla.
 # Librerías a utilizar: 
 
+## java.io.FileWriter:
+se utiliza para escribir datos orientados a caracteres en un archivo . Es una clase orientada a caracteres que se utiliza para el manejo de archivos en Java. 
+
+## java.io.IOException: 
+Indica que se ha producido algún tipo de excepción de E/S. Esta clase es la clase general de excepciones producidas por operaciones de E/S fallidas o interrumpidas.
+
 ## java.util.Date: 
 Esta clase representa una instancia específica de fecha y hora. O el paquete java.time en su lugar para trabajar con fechas y horas en Java de manera más efectiva.
 
